@@ -44,8 +44,10 @@ export const items = sizes.reduce(
           (acc, color) => [
             ...acc,
             {
+              
               name: `${size} ${color} ${fruit}`,
               color,
+              checked : false,
             },
           ],
           []
